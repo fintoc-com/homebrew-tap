@@ -10,6 +10,6 @@ brew install fintoc-com/tap/fintoc
 
 | Formula | Description |
 |---|---|
-| `fintoc` | Fintoc CLI for interacting with the Fintoc API |
+| `fintoc` | CLI for the Fintoc API |
 
-Formulas are automatically updated by [GoReleaser](https://goreleaser.com/) when new versions of the Fintoc CLI are released.
+Formulas are automatically updated when new versions of the [Fintoc CLI](https://github.com/fintoc-com/fintoc-cli) are released.
