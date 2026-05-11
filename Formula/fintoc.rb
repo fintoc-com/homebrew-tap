@@ -1,14 +1,15 @@
 class Fintoc < Formula
-  desc 'CLI for the Fintoc API'
-  homepage 'https://github.com/fintoc-com/fintoc-cli'
-  url 'https://registry.npmjs.org/@fintoc/cli/-/cli-0.2.0.tgz'
-  sha256 '90ba7f90fb5fde6152db228cd76e604dc7d50a67ee52dd2423529d075c17701d'
-  license 'BSD-3-Clause'
+  desc "CLI for the Fintoc API"
+  homepage "https://github.com/fintoc-com/fintoc-cli"
+  url "https://registry.npmjs.org/@fintoc/cli/-/cli-0.2.1.tgz"
+  version "0.2.1"
+  sha256 "2f856d88ec1270ffc18e20b0e3a3df0135bdef3f44bd6a61737ec3b60866a7e3"
+  license "BSD-3-Clause"
 
-  depends_on 'node'
+  depends_on "node"
 
   def install
-    system 'npm', 'install', *std_npm_args
+    system "npm", "install", *std_npm_args
     bin.install_symlink Dir["#{libexec}/bin/*"]
   end
 
