@@ -1,9 +1,9 @@
 class Fintoc < Formula
   desc "CLI for the Fintoc API"
   homepage "https://github.com/fintoc-com/fintoc-cli"
-  url "https://registry.npmjs.org/@fintoc/cli/-/cli-0.5.0.tgz"
-  version "0.5.0"
-  sha256 "9d704a81aef4b54befe39ffe30a2eec21952aaf45e8adaf9445b4141765a8c26"
+  url "https://registry.npmjs.org/@fintoc/cli/-/cli-0.6.0.tgz"
+  version "0.6.0"
+  sha256 "41edc36ad3dc63f8b057a3c34fd0489585800eee716585d95ca723aa12bb9d40"
   license "BSD-3-Clause"
 
   depends_on "node"
